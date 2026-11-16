@@ -1,0 +1,12 @@
+# Windows / Office Lock Files
+~$*
+Thumbs.db
+Desktop.ini
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
