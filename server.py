@@ -8,8 +8,9 @@ import http.server
 import socketserver
 import json
 import urllib.parse
+import os
 
-PORT = 8000
+PORT = int(os.environ.get("PORT", 8000))
 
 class MindSolaceRequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_POST(self):
